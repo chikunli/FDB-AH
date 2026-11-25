@@ -1,6 +1,6 @@
-# FDBAH
+# FDB-AH
 
-R code for *Initial Subset-Size Selection for Minimum Covariance Determinant Estimation*, by Chikun Li and Baisuo Jin. Figure and table numbers follow the English manuscript of 25 November 2026.
+FDB-AH selects the initial subset size for robust location and scatter estimation. Its R package is named `FDBAH`. The scripts reproduce figures and tables in *Initial Subset-Size Selection for Minimum Covariance Determinant Estimation*, by Chikun Li and Baisuo Jin (English manuscript of 25 November 2026).
 
 ## Install
 

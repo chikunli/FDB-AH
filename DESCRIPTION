@@ -5,11 +5,12 @@ Version: 0.1.0
 Authors@R: c(person("Chikun", "Li", role = "aut"),
              person("Baisuo", "Jin", role = c("aut", "cre"),
                     email = "jbs@ustc.edu.cn"))
-Description: Selects the initial subset size using ordered squared Mahalanobis
+Description: Implements FDB-AH, which selects the initial subset size using ordered squared Mahalanobis
     distances along a projection-depth ordering and computes reweighted
     location and scatter estimates. Includes scripts for selected figures
     and tables in the accompanying manuscript.
 License: file LICENSE
+URL: https://github.com/chikunli/FDB-AH
 Encoding: UTF-8
 Depends: R (>= 4.1.0)
 Imports: ddalpha, robustbase, stats
