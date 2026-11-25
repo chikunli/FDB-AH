@@ -1,0 +1,18 @@
+Package: FDBAH
+Type: Package
+Title: Adaptive Initial Subset Size for Minimum Covariance Determinant Estimation
+Version: 0.1.0
+Authors@R: c(person("Chikun", "Li", role = "aut"),
+             person("Baisuo", "Jin", role = c("aut", "cre"),
+                    email = "jbs@ustc.edu.cn"))
+Description: Selects the initial subset size using ordered squared Mahalanobis
+    distances along a projection-depth ordering and computes reweighted
+    location and scatter estimates. Includes scripts for selected figures
+    and tables in the accompanying manuscript.
+License: file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: ddalpha, robustbase, stats
+Suggests: data.table, digest, ggplot2 (>= 3.5.0), grid, MASS, parallel,
+    fsdac, StableMCD
+NeedsCompilation: no
